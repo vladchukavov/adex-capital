@@ -1,0 +1,53 @@
+.sitemap-body {
+  background-color: silver;
+  padding: 50px;
+}
+.sitemap-box {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+}
+.sitemap-box[title='--main-primary'] {
+  background: var(--main-primary);
+}
+.sitemap-box[title='--main-secondary'] {
+  background: var(--main-secondary);
+}
+.sitemap-box[title='--main-tertiary'] {
+  background: var(--main-tertiary);
+}
+.sitemap-box[title='--user-black'] {
+  background: var(--user-black);
+}
+.sitemap-box[title='--user-dark-gray'] {
+  background: var(--user-dark-gray);
+}
+.sitemap-box[title='--user-gray'] {
+  background: var(--user-gray);
+}
+.sitemap-box[title='--user-light-gray'] {
+  background: var(--user-light-gray);
+}
+.sitemap-box[title='--user-white'] {
+  background: var(--user-white);
+}
+.sitemap-box[title='--gradient-border'] {
+  background: var(--gradient-border);
+
+}
+.sitemap-box[title='--gradient-primary'] {
+  background: var(--gradient-primary);
+}
+.sitemap-box[title='--shadows-black'] {
+  background: var(--shadows-black);
+}
+.sitemap-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.sitemap-hr {
+  border-color: var(--main-tertiary);
+}
